@@ -5,7 +5,7 @@ def a_star_easy(graph, start, goal, heuristics):
     visited = set()
     pq = PriorityQueue()
     pq.put((heuristics[start], start))
-    path = []
+    
     came_from = {}
 
     while not pq.empty():

@@ -53,14 +53,3 @@ goal_node = input("Enter goal node: ")
 result = a_star_easy(graph, start_node, goal_node, heuristics)
 print("A* Search Path:", result)
 
-
-# grpah = {}
-# toatal-nodes = 5
-# node1 = name of node 1
-# for _ in range(total-nodes)
-# neighbours = input("Enter the name of neighbours of node ${node} : ").spilt()
-# graph[node] = neighbours
-
-# heuristics = {}
-# for node in graph:
-# heuristic[node] = int(input("Enter heuristic of node ${node} : "))

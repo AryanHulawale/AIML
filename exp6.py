@@ -27,7 +27,7 @@ def a_star_easy(graph, start, goal, heuristics):
 
         for neighbor in graph.get(current, []):
             if neighbor not in visited:
-                f_score = len(path) + 1 + heuristics[neighbor]
+                f_score = len(path) +  heuristics[neighbor]
                 came_from[neighbor] = current
                 pq.put((f_score, neighbor))
 

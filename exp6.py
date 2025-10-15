@@ -9,7 +9,7 @@ def a_star_easy(graph, start, goal, heuristics):
     came_from = {}
 
     while not pq.empty():
-        _, current = pq.get()
+        priority, current = pq.get()
 
         if current in visited:
             continue
@@ -52,4 +52,5 @@ goal_node = input("Enter goal node: ")
 
 result = a_star_easy(graph, start_node, goal_node, heuristics)
 print("A* Search Path:", result)
+
 
